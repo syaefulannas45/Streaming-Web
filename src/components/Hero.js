@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="mr-4 flex h-10 w-[40%] items-center justify-center rounded-full bg-teal-500 text-slate-100 lg:mr-12 lg:w-[8%]">
           <a href="">Lets Watch</a>
         </div>
-        <div className="ml-4 flex h-10 w-[40%] items-center justify-center rounded-full border-2 px-1 text-slate-700 hover:bg-cyan-500 hover:text-slate-200 dark:text-slate-200 lg:ml-12 lg:w-[8%]">
+        <div className="ml-4 flex h-10 w-[40%] items-center justify-center rounded-full border-2 px-1 text-slate-700 hover:bg-cyan-500 hover:text-slate-200 dark:text-slate-200 lg:ml-12 lg:w-[10%]">
           <a href="" className="mr-1">
             Try it now
           </a>
