@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="flex w-full justify-center">
         <div className="text-3xl font-bold uppercase text-teal-500 lg:text-6xl">Jesh Streaming</div>
       </div>
-      <div className="mx-auto mt-10 w-full text-center dark:text-slate-200 md:w-3/4 text-xl text-slate-700">{deskripsi}</div>
+      <div className="mx-auto mt-10 w-full text-center dark:text-slate-200 md:w-3/4 text-lg lg:text-xl text-slate-700">{deskripsi}</div>
       <div className="relative mx-auto mt-12 flex w-[80%]  justify-center lg:w-[40%]">
         <input type="text" placeholder="Search" className="animate-bounce rounded-full border bg-slate-300 py-4 px-12 lg:placeholder:px-12 placeholder:text-slate-100 focus:outline-none focus:ring-2  md:w-full" />
         <div className="absolute left-4 top-2 md:left-5 md:top-2">
