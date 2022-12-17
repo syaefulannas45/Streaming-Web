@@ -5,7 +5,7 @@ const Hero = () => {
   const { state } = useContext(GlobalContext);
   const { deskripsi } = state;
   return (
-    <div className="container bg-[url('/src/images/herobg.png')] pt-10 pb-44 dark:bg-slate-600  lg:pt-44">
+    <div className="bg-[url('/src/images/herobg.png')] pt-10 pb-44 dark:bg-slate-600  lg:pt-44">
       {/* eslint-disable */}
       <div className="flex w-full justify-center">
         <div className="text-3xl font-bold uppercase text-teal-500 lg:text-6xl">Jesh Streaming</div>
