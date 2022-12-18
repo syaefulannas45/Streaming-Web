@@ -37,7 +37,7 @@ export const GlobalProvider = (props) => {
       images: "category6.jpg",
     },
   ];
-  const list = [
+  const movies = [
     {
       name: "The Invisible Guest",
       images: "movie1.jpg",
@@ -63,9 +63,54 @@ export const GlobalProvider = (props) => {
       images: "movie6.png",
     },
   ];
+  const anime = [
+    {
+      name: "One Punch Man",
+      images: "anime1.jpg",
+    },
+    {
+      name: "Gintama",
+      images: "anime2.jpg",
+    },
+    {
+      name: "Boku no Hero",
+      images: "anime3.jpg",
+    },
+    {
+      name: "Hunter x Hunter",
+      images: "anime4.jpg",
+    },
+    {
+      name: "One Piece",
+      images: "anime5.jpg",
+    },
+    {
+      name: "Naruto Shippuden",
+      images: "anime6.jpg",
+    },
+  ];
+  const responsiveSettings = [
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+      },
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 2,
+      },
+    },
+  ];
   const deskripsi = "The Jesh Streaming site is a web service that provides access to a database of video content originating from various sources. Available content includes movies, television shows, commercials, and more";
   const categoryDeskripsi = "Immediately watch interesting films on jesh streaming, and install your premium package so you can watch movies in HD";
+
+
+
   const handleFunction = { toggle };
-  const state = { deskripsi, categoryDeskripsi, category, list };
+  const state = { deskripsi, categoryDeskripsi, category, movies ,responsiveSettings ,anime };
   return <GlobalContext.Provider value={{ handleFunction, state }}>{props.children}</GlobalContext.Provider>;
 };
