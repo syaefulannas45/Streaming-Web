@@ -89,6 +89,32 @@ export const GlobalProvider = (props) => {
       images: "anime6.jpg",
     },
   ];
+  const drakor = [
+    {
+      name: "A Business Proposal",
+      images: "drakor1.jpg",
+    },
+    {
+      name: " Twenty-Five Twenty-one",
+      images: "drakor2.jpg",
+    },
+    {
+      name: "Romance is a Bonus Book",
+      images: "drakor3.jpg",
+    },
+    {
+      name: "Marriage Contract",
+      images: "drakor4.jpg",
+    },
+    {
+      name: "Forecasting Love and Weather",
+      images: "drakor5.jpg",
+    },
+    {
+      name: "Crazy Love",
+      images: "drakor6.jpg",
+    },
+  ];
   const responsiveSettings = [
     {
       breakpoint: 800,
@@ -108,9 +134,7 @@ export const GlobalProvider = (props) => {
   const deskripsi = "The Jesh Streaming site is a web service that provides access to a database of video content originating from various sources. Available content includes movies, television shows, commercials, and more";
   const categoryDeskripsi = "Immediately watch interesting films on jesh streaming, and install your premium package so you can watch movies in HD";
 
-
-
   const handleFunction = { toggle };
-  const state = { deskripsi, categoryDeskripsi, category, movies ,responsiveSettings ,anime };
+  const state = { deskripsi, categoryDeskripsi, category, movies, responsiveSettings, anime, drakor };
   return <GlobalContext.Provider value={{ handleFunction, state }}>{props.children}</GlobalContext.Provider>;
 };
