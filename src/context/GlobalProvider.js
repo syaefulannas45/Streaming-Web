@@ -115,6 +115,84 @@ export const GlobalProvider = (props) => {
       images: "drakor6.jpg",
     },
   ];
+  const donghua = [
+    {
+      name: "Huyao Xiao Hongniang",
+      images: "donghua1.jpg",
+    },
+    {
+      name: " Wu Geng Ji",
+      images: "donghua2.jpg",
+    },
+    {
+      name: "Da Yu Hai Tang",
+      images: "donghua3.jpg",
+    },
+    {
+      name: "Kitsune no Koe",
+      images: "donghua4.jpg",
+    },
+    {
+      name: "Jie Mo Ren (The Devil Ring)",
+      images: "donghua5.jpg",
+    },
+    {
+      name: "Wo De Tian Jie Nuyou",
+      images: "donghua6.jpg",
+    },
+  ];
+  const cartoon = [
+    {
+      name: "Aladdin (1992)",
+      images: "cartoon1.jpg",
+    },
+    {
+      name: "The Little Mermaid (1989)",
+      images: "cartoon2.jpg",
+    },
+    {
+      name: "Peter Pan (1953)",
+      images: "cartoon3.jpg",
+    },
+    {
+      name: "Alice in Wonderland (1951)",
+      images: "cartoon4.jpg",
+    },
+    {
+      name: "Beauty and the Beast (1991)",
+      images: "cartoon5.jpg",
+    },
+    {
+      name: "The Lion King (1994)",
+      images: "cartoon6.jpg",
+    },
+  ];
+  const drasia = [
+    {
+      name: "My Roommate is a Gumiho",
+      images: "drasia1.jpg",
+    },
+    {
+      name: "Moonlight",
+      images: "drasia2.jpg",
+    },
+    {
+      name: "Make a Wish",
+      images: "drasia3.jpg",
+    },
+    {
+      name: "Sweet Teeth",
+      images: "drasia4.jpg",
+    },
+    {
+      name: "Forever and Ever",
+      images: "drasia5.jpg",
+    },
+    {
+      name: "The Day of Becoming You",
+      images: "drasia6.jpg",
+    },
+  ];
   const responsiveSettings = [
     {
       breakpoint: 800,
@@ -135,6 +213,6 @@ export const GlobalProvider = (props) => {
   const categoryDeskripsi = "Immediately watch interesting films on jesh streaming, and install your premium package so you can watch movies in HD";
 
   const handleFunction = { toggle };
-  const state = { deskripsi, categoryDeskripsi, category, movies, responsiveSettings, anime, drakor };
+  const state = { deskripsi, categoryDeskripsi, category, movies, responsiveSettings, anime, drakor,cartoon,drasia,donghua };
   return <GlobalContext.Provider value={{ handleFunction, state }}>{props.children}</GlobalContext.Provider>;
 };

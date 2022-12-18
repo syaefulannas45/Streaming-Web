@@ -10,7 +10,7 @@ const Movies = () => {
     <>
       {/* eslint-disable */}
       <div className="absolute w-full  md:left-16 lg:left-14">
-        <Slide slidesToScroll={1} slidesToShow={1} indicators={true} responsive={responsiveSettings} cssClass="pl-24 md:pl-40">
+        <Slide slidesToScroll={1} slidesToShow={1} indicators={true} responsive={responsiveSettings} cssClass="md:pl-40 pl-[85px]">
           {movies.map((res) => (
             <div className="flex w-[50%] cursor-pointer flex-col items-center justify-evenly rounded-xl bg-slate-100 p-1 shadow-md hover:p-2 lg:w-[50%]">
               <div>
